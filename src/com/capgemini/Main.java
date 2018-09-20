@@ -17,13 +17,13 @@ public class Main {
 
         System.out.println(
                 "Car built"
-                        +"Car body type: "
+                        +"\nCar body type: "
                         + firstCar.getCarBody()
-                        +"Car amount of doors: "
+                        +"\nCar amount of doors: "
                         + firstCar.getCarDoors()
-                        +"Car engine type: "
+                        +"\nCar engine type: "
                         + firstCar.getCarEngine()
-                        +"Car color: "
+                        +"\nCar color: "
                         + firstCar.getCarColor()
         );
     }

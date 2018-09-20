@@ -9,22 +9,22 @@ public class RaceCarBuilder implements CarBuilder {
     }
 
     @Override
-    public void buildCarBody() {
+    public void buildCarBody() { // Set body to Aerodynamic
         car.setCarBody("Aerodynamic");
     }
 
     @Override
-    public void buildCarDoors() {
+    public void buildCarDoors() { //Set doors to 2
         car.setCarDoors("2");
     }
 
     @Override
-    public void buildCarEngine() {
+    public void buildCarEngine() { //Set engine type to Petrol
         car.setCarEngine("Petrol");
     }
 
     @Override
-    public void buildCarColor() {
+    public void buildCarColor() { //Set color to Red
         car.setCarColor("Red");
     }
 
